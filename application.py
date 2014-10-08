@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '<img src="/static/quay-logo.png"><br><br>Hello World with static resource!!'
+    return '<img src="/static/quay-logo.png"><br><br>Hello World with static resource!! This is a demo'
 
 if __name__ == '__main__':
     print 'Starting HTTP server'
